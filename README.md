@@ -14,3 +14,10 @@ $ nx g @nx/next:app my-new-app
    Pass --verbose to see the stacktrace.
 
 ```
+
+# Following https://github.com/nrwl/nx/issues/20574#issuecomment-1854602947
+3. `npm init -y`
+4. `npm install --save-dev @nx/next`
+5. `nx g @nx/next:app my-new-app` 
+
+it works now, but I don't want my root folder to be a npm package.
